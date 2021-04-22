@@ -1,5 +1,5 @@
 {
-    "name": "barryvdh/composer-cleanup-plugin",
+    "name": "untermstrich/composer-cleanup-plugin",
     "type": "composer-plugin",
     "description": "A composer cleanup plugin, to remove tests and documentation to save space",
     "license": "MIT",
@@ -7,6 +7,10 @@
         {
             "name": "Barry vd. Heuvel",
             "email": "barryvdh@gmail.com"
+        },
+        {
+            "name": "Christian Koller",
+            "email": "christian.k@untermstrich.com"
         }
     ],
     "require": {
@@ -19,7 +23,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "0.3-dev"
+            "dev-master": "0.3.1"
         },
         "class": "Barryvdh\\Composer\\CleanupPlugin"
     }
