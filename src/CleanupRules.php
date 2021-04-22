@@ -70,7 +70,7 @@ class CleanupRules
             'meng-tian/php-soap-interpreter'        => array($docs, $tests, 'phpunit.xml* tests/*'),
             'meng-tian/soap-http-binding'           => array($docs, $tests, 'phpunit.xml* tests/*'),
             
-            'microsoft/microsoft-graph'             => array($docs, $tests, 'msgraph-sdk-php.yml'),
+            'microsoft/microsoft-graph'             => array($docs, $tests, 'msgraph-sdk-php.yml src/Beta'),
             'mockery/mockery'                       => array($docs, $tests),
             'monolog/monolog'                       => array($docs, $tests),
             'myclabs/php-enum'                      => array($docs, $tests, 'psalm.xml SECURITY.md'),
@@ -118,6 +118,7 @@ class CleanupRules
             'symfony/polyfill-intl-normalizer'      => array($docs, $tests),
             'symfony/polyfill-php70'                => array($docs, $tests),
             'symfony/polyfill-php72'                => array($docs, $tests),
+            'symfony/polyfill-php80'                => array($docs, $tests),
             'symfony/process'                       => array($docs, $tests),
             'symfony/routing'                       => array($docs, $tests),
             'symfony/security'                      => array($docs, $tests),
