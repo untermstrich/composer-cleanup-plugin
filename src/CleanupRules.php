@@ -39,6 +39,7 @@ class CleanupRules
             'ezyang/htmlpurifier'                   => array($docs, $tests, 'VERSION'),
             'filp/whoops'                           => array($docs, $tests),
             
+            'graham-campbell/guzzle-factory'        => array($docs, $tests),
             'guzzle/guzzle'                         => array($docs, $tests),
             'guzzlehttp/guzzle'                     => array($docs, $tests, 'DOCKERFILE vendor-bin'),
             'guzzlehttp/oauth-subscriber'           => array($docs, $tests),
@@ -112,6 +113,7 @@ class CleanupRules
             'setasign/fpdf'                         => array($docs, $tests, 'changelog.htm install.txt tutorial'),
             'setasign/fpdi'                         => array($docs, $tests),
             'simplepie/simplepie'                   => array($docs, $tests, 'build compatibility_test ROADMAP.md'),
+            'spatie/dropbox-api'                    => array($docs, $tests),
             'stack/builder'                         => array($docs, $tests),
             'swiftmailer/swiftmailer'               => array($docs, $tests, 'build* notes test-suite create_pear_package.php'),
             
