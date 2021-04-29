@@ -37,6 +37,7 @@ class CleanupRules
             'doctrine/inflector'                    => array($docs, $tests),
             'dompdf/dompdf'                         => array($docs, $tests, 'www'),
             'ezyang/htmlpurifier'                   => array($docs, $tests, 'VERSION'),
+            'firebase/php-jwt'                      => array($docs, $tests),
             'filp/whoops'                           => array($docs, $tests),
             
             'graham-campbell/guzzle-factory'        => array($docs, $tests),
