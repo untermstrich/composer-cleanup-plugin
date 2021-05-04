@@ -136,7 +136,7 @@ class CleanupRules
             'symfony/finder'                        => array($docs, $tests),
             'symfony/http-foundation'               => array($docs, $tests),
             'symfony/http-kernel'                   => array($docs, $tests),
-            'symfony/intl'                          => array($docs, $tests),
+            'symfony/intl'                          => array($docs, $tests, 'Resources/data/*/a* Resources/data/*/b* Resources/data/*/c* Resources/data/*/g* Resources/data/*/h* Resources/data/*/i* Resources/data/*/j* Resources/data/*/k* Resources/data/*/l* Resources/data/*/m* Resources/data/*/n* Resources/data/*/o* Resources/data/*/p* Resources/data/*/q* Resources/data/*/r* Resources/data/*/s* Resources/data/*/t* Resources/data/*/u* Resources/data/*/v* Resources/data/*/w* Resources/data/*/x* Resources/data/*/y* Resources/data/*/z*'),
             'symfony/options-resolver'              => array($docs, $tests),
             'symfony/polyfill-ctype'                => array($docs, $tests),
             'symfony/polyfill-intl-grapheme'        => array($docs, $tests),
@@ -156,7 +156,7 @@ class CleanupRules
             'symfony/string'                        => array($docs, $tests),
             'symfony/translation'                   => array($docs, $tests),
             'symfony/translation-contracts'         => array($docs, $tests),
-            'symfony/validator'                     => array($docs, $tests),
+            'symfony/validator'                     => array($docs, $tests, 'Resources/*/validators.a* Resources/*/validators.b* Resources/*/validators.c* Resources/*/validators.g* Resources/*/validators.h* Resources/*/validators.i* Resources/*/validators.j* Resources/*/validators.k* Resources/*/validators.l* Resources/*/validators.m* Resources/*/validators.n* Resources/*/validators.o* Resources/*/validators.p* Resources/*/validators.q* Resources/*/validators.r* Resources/*/validators.s* Resources/*/validators.t* Resources/*/validators.u* Resources/*/validators.v* Resources/*/validators.w* Resources/*/validators.x* Resources/*/validators.y* Resources/*/validators.z*'),
             'symfony/var-dumper'                    => array($docs, $tests),
             
             'tecnickcom/tcpdf'                      => array($docs, $tests, 'fonts'),
