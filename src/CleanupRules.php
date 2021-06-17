@@ -8,7 +8,7 @@ class CleanupRules
     {
         // Default patterns for common files
         $docs = 'README* CHANGELOG* FAQ* CONTRIBUTING* HISTORY* UPGRADING* UPGRADE* package* demo example examples doc docs readme* changelog* composer*';
-        $tests = '.travis.yml .scrutinizer.yml phpcs.xml* phpcs.php phpunit.xml* phpunit.php test tests Tests travis patchwork.json .gitignore .editorconfig .php_cs* .phpcs* .pullapprove.yml';
+        $tests = '.travis.yml .scrutinizer.yml phpcs.xml* phpcs.php phpunit.xml* phpunit.php test tests Tests travis patchwork.json .gitignore .editorconfig .php_cs* .phpcs* .pullapprove.yml phpstan.neon';
 
         return array(
             'atgp/factur-x'                         => array($docs, $tests, 'img'),
@@ -69,7 +69,7 @@ class CleanupRules
             'league/stack-robots'                   => array($docs, $tests),
             'maennchen/zipstream-php'               => array($docs, $tests, 'psalm.xml'),
             'markbaker/complex'                     => array($docs, $tests),
-            'markbaker/matrix'                      => array($docs, $tests, '.github infection.json.dist phpstan.neon'),
+            'markbaker/matrix'                      => array($docs, $tests, '.github infection.json.dist'),
             'maximebf/debugbar'                     => array($docs, $tests, 'demo'),
             'netresearch/jsonmapper'                => array($docs, $tests),
             'mccool/laravel-auto-presenter'         => array($docs, $tests),
@@ -107,7 +107,7 @@ class CleanupRules
             'php-http/multipart-stream-builder'     => array($docs, $tests),
             'php-http/promise'                      => array($docs, $tests),
             
-            'psr/log'                               => array($docs, $tests),
+            'psr/log'                               => array($docs, $tests, 'Psr/Log/Test'),
             'psr/http-client'                       => array($docs, $tests),
             'psr/http-factory'                      => array($docs, $tests),
             'psr/http-message'                      => array($docs, $tests),
@@ -116,6 +116,14 @@ class CleanupRules
             'quickbooks/v3-php-sdk'                 => array($docs, $tests, 'docs docs/* src/XSD2PHP/test src/XSD2PHP/test/*'),
             'ralouphie/getallheaders'               => array($docs, $tests),
             'rcrowe/twigbridge'                     => array($docs, $tests),
+            
+            'sabre/dav'                             => array($docs, $tests, 'bin'),
+            'sabre/event'                           => array($docs, $tests, 'bin'),
+            'sabre/http'                            => array($docs, $tests, 'bin'),
+            'sabre/uri'                             => array($docs, $tests, 'bin'),
+            'sabre/vobject'                         => array($docs, $tests, 'bin'),
+            'sabre/xml'                             => array($docs, $tests, 'bin'),
+            
             'setasign/fpdf'                         => array($docs, $tests, 'changelog.htm install.txt tutorial'),
             'setasign/fpdi'                         => array($docs, $tests),
             'simplepie/simplepie'                   => array($docs, $tests, 'build compatibility_test ROADMAP.md'),
