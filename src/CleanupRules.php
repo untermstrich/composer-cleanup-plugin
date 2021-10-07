@@ -8,7 +8,7 @@ class CleanupRules
     {
         // Default patterns for common files
         $docs = 'README* CHANGELOG* FAQ* CONTRIBUTING* HISTORY* UPGRADING* UPGRADE* package* demo example examples doc docs readme* changelog* composer*';
-        $tests = '.travis.yml .scrutinizer.yml phpcs.xml* phpcs.php phpunit.xml* phpunit.php test tests Tests travis patchwork.json .github .gitignore .editorconfig .php_cs* .phpcs* .pullapprove.yml phpstan.neon';
+        $tests = '.travis.yml .scrutinizer.yml phpcs.xml* phpcs.php phpunit.xml* phpunit.php test tests Tests travis patchwork.json .github .github/* .gitignore .editorconfig .php_cs* .phpcs* .pullapprove.yml phpstan.neon';
 
         return array(
             'atgp/factur-x'                         => array($docs, $tests, 'img'),
