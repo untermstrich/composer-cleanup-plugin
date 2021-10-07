@@ -8,7 +8,7 @@ class CleanupRules
     {
         // Default patterns for common files
         $docs = 'README* CHANGELOG* FAQ* CONTRIBUTING* HISTORY* UPGRADING* UPGRADE* package* demo example examples doc docs readme* changelog* composer*';
-        $tests = '.travis.yml .scrutinizer.yml phpcs.xml* phpcs.php phpunit.xml* phpunit.php test tests Tests travis patchwork.json .gitignore .editorconfig .php_cs* .phpcs* .pullapprove.yml phpstan.neon';
+        $tests = '.travis.yml .scrutinizer.yml phpcs.xml* phpcs.php phpunit.xml* phpunit.php test tests Tests travis patchwork.json .github .gitignore .editorconfig .php_cs* .phpcs* .pullapprove.yml phpstan.neon';
 
         return array(
             'atgp/factur-x'                         => array($docs, $tests, 'img'),
@@ -69,7 +69,7 @@ class CleanupRules
             'league/stack-robots'                   => array($docs, $tests),
             'maennchen/zipstream-php'               => array($docs, $tests, 'psalm.xml'),
             'markbaker/complex'                     => array($docs, $tests),
-            'markbaker/matrix'                      => array($docs, $tests, '.github infection.json.dist'),
+            'markbaker/matrix'                      => array($docs, $tests, 'infection.json.dist'),
             'maximebf/debugbar'                     => array($docs, $tests, 'demo'),
             'netresearch/jsonmapper'                => array($docs, $tests),
             'mccool/laravel-auto-presenter'         => array($docs, $tests),
