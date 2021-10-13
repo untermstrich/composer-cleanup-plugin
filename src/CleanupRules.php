@@ -107,6 +107,8 @@ class CleanupRules
             'php-http/multipart-stream-builder'     => array($docs, $tests),
             'php-http/promise'                      => array($docs, $tests),
             
+            'psr/cache'                             => array($docs, $tests),
+            'psr/container'                         => array($docs, $tests),
             'psr/log'                               => array($docs, $tests, 'Psr/Log/Test'),
             'psr/http-client'                       => array($docs, $tests),
             'psr/http-factory'                      => array($docs, $tests),
@@ -132,6 +134,9 @@ class CleanupRules
             'sprain/swiss-qr-bill'                  => array($docs, $tests),
             'swiftmailer/swiftmailer'               => array($docs, $tests, 'build* notes test-suite create_pear_package.php'),
             
+            'symfony/cache'                         => array($docs, $tests),
+            'symfony/cache-contracts'               => array($docs, $tests),
+            'symfony/config'                        => array($docs, $tests),
             'symfony/browser-kit'                   => array($docs, $tests),
             'symfony/class-loader'                  => array($docs, $tests),
             'symfony/console'                       => array($docs, $tests),
@@ -161,6 +166,7 @@ class CleanupRules
             'symfony/routing'                       => array($docs, $tests),
             'symfony/security'                      => array($docs, $tests),
             'symfony/security-core'                 => array($docs, $tests),
+            'symfony/service-contracts'             => array($docs, $tests),
             'symfony/string'                        => array($docs, $tests),
             'symfony/translation'                   => array($docs, $tests),
             'symfony/translation-contracts'         => array($docs, $tests),
@@ -176,7 +182,7 @@ class CleanupRules
             'willdurand/geocoder'                   => array($docs, $tests),
             'willdurand/geocoder'                   => array($docs, $tests),
             'zendframework/zend-diactoros'          => array($docs, $tests, 'mkdocs.yml CONDUCT.md'),
-
+            'box/spout'                             => array($docs, $tests),
         );
     }
 }
