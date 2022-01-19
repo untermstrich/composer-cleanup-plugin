@@ -159,6 +159,7 @@ class CleanupRules
             'symfony/polyfill-php70'                => array($docs, $tests),
             'symfony/polyfill-php72'                => array($docs, $tests),
             'symfony/polyfill-php73'                => array($docs, $tests),
+            'symfony/polyfill-php74'                => array($docs, $tests),
             'symfony/polyfill-php80'                => array($docs, $tests),
             'symfony/process'                       => array($docs, $tests),
             'symfony/property-access'               => array($docs, $tests),
