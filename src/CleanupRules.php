@@ -144,6 +144,7 @@ class CleanupRules
             'symfony/debug'                         => array($docs, $tests),
             'symfony/deprecation-contracts'         => array($docs, $tests),
             'symfony/dom-crawler'                   => array($docs, $tests),
+            'symfony/dotenv'                        => array($docs, $tests),
             'symfony/event-dispatcher'              => array($docs, $tests),
             'symfony/filesystem'                    => array($docs, $tests),
             'symfony/finder'                        => array($docs, $tests),
