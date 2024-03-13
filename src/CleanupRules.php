@@ -174,7 +174,7 @@ class CleanupRules
             'symfony/translation-contracts'         => array($docs, $tests),
             'symfony/validator'                     => array($docs, $tests, 'Resources/*/validators.a* Resources/*/validators.b* Resources/*/validators.c* Resources/*/validators.es* Resources/*/validators.g* Resources/*/validators.h* Resources/*/validators.i* Resources/*/validators.j* Resources/*/validators.k* Resources/*/validators.l* Resources/*/validators.m* Resources/*/validators.n* Resources/*/validators.o* Resources/*/validators.p* Resources/*/validators.q* Resources/*/validators.r* Resources/*/validators.s* Resources/*/validators.t* Resources/*/validators.u* Resources/*/validators.v* Resources/*/validators.w* Resources/*/validators.x* Resources/*/validators.y* Resources/*/validators.z*'),
             'symfony/var-dumper'                    => array($docs, $tests),
-            'symfony/yaml'                          => array($docs, $tests, 'Resources/bin/*'),
+            'symfony/yaml'                          => array($docs, $tests, 'Resources'),
             
             'tecnickcom/tcpdf'                      => array($docs, $tests, 'fonts'),
             'tightenco/collect'                     => array($docs, $tests, 'collect-logo.png'),
