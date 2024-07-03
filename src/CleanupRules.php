@@ -187,6 +187,7 @@ class CleanupRules
             'zendframework/zend-diactoros'          => array($docs, $tests, 'mkdocs.yml CONDUCT.md'),
             'box/spout'                             => array($docs, $tests),
             'zircote/swagger-php'                   => array($docs, $tests),
+            'webonyx/graphql-php'                   => array($docs, $tests),
         );
     }
 }
