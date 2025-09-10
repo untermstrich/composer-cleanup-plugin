@@ -150,7 +150,7 @@ class CleanupRules
             'symfony/finder'                        => array($docs, $tests),
             'symfony/http-foundation'               => array($docs, $tests),
             'symfony/http-kernel'                   => array($docs, $tests),
-            'symfony/intl'                          => array($docs, $tests, 'Resources/data/*/a* Resources/data/*/b* Resources/data/*/c* Resources/data/*/es* Resources/data/*/g* Resources/data/*/h* Resources/data/*/i* Resources/data/*/j* Resources/data/*/k* Resources/data/*/l* Resources/data/*/n* Resources/data/*/o* Resources/data/*/p* Resources/data/*/q* Resources/data/*/r* Resources/data/*/s* Resources/data/*/t* Resources/data/*/u* Resources/data/*/v* Resources/data/*/w* Resources/data/*/x* Resources/data/*/y* Resources/data/*/z*'),
+            'symfony/intl'                          => array($docs, $tests, 'Resources/data/*/a* Resources/data/*/b* Resources/data/*/c* Resources/data/*/es* Resources/data/*/g* Resources/data/*/h* Resources/data/*/i* Resources/data/*/j* Resources/data/*/k* Resources/data/*/l* Resources/data/*/n* Resources/data/*/o* Resources/data/*/p* Resources/data/*/q* Resources/data/*/r* Resources/data/*/s* Resources/data/*/t* Resources/data/*/u* Resources/data/*/v* Resources/data/*/w* Resources/data/*/x* Resources/data/*/y* Resources/data/*/z* Resources/data/transliterator/*'),
             'symfony/options-resolver'              => array($docs, $tests),
             'symfony/polyfill-ctype'                => array($docs, $tests),
             'symfony/polyfill-intl-grapheme'        => array($docs, $tests),
